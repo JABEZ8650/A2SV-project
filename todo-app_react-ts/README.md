@@ -16,8 +16,6 @@
 
 ![image-3](./images/Delete.png)
 
-Here’s a revised version of the description:
-
 ---
 
 ## Simple To-Do List Web Application
