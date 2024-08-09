@@ -1,50 +1,70 @@
-# React + TypeScript + Vite
+# Todo-List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React + TypeScript + Vite
 
-Currently, two official plugins are available:
+![image-0](./images/Screenshot%202024-08-09%20153956.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Add
 
-## Expanding the ESLint configuration
+![image-1](./images/add.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Edit
 
-- Configure the top-level `parserOptions` property like this:
+![image-2](./images/edit.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Delete
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![image-3](./images/Delete.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Here’s a revised version of the description:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## Simple To-Do List Web Application
+
+This To-Do List web app is built using React.js and TypeScript. It allows users to manage their tasks by adding, deleting, and editing them. Users can also choose to save or discard changes while editing tasks. The app utilizes local storage, ensuring that tasks persist even after the browser is closed or refreshed. When a task is added, it is immediately stored in local storage, making it available even after the page is reloaded.
+
+### Features
+
+- **Add Tasks**: Easily add new tasks to your list.
+- **Delete Tasks**: Remove tasks from the list with a single click.
+- **Edit Tasks**: Modify existing tasks, with options to save or cancel changes.
+- **Persistent Storage**: Tasks are saved in local storage, ensuring they remain even after a browser refresh or closure.
+
+### Local Storage
+
+The app leverages the browser’s local storage to save tasks. This means your tasks will be preserved even if you close the browser or refresh the page.
+
+### Instructions
+
+#### Running the App Locally
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/to-do-list-react.git
+   cd to_do-list-react
+   ```
+2. **Open the Project**: Open the project folder in VS Code or any other code editor.
+3. **Run the App**: Open `index.html` with Live Server or any other tool that supports live preview.
+
+#### How to Use
+
+- **Add a Task**:
+  1. Enter your task in the input field.
+  2. Click the "Add Task" button or press Enter to add it to the list.
+- **Delete a Task**:
+
+  1. Click the "Delete" button next to the task you wish to remove.
+
+- **Edit a Task**:
+
+  1. Click the "Edit" button next to the task you want to modify.
+  2. Update the task in the input field and press Enter to save the changes.
+  3. You can choose to save your changes or cancel them, leaving the task unchanged.
+
+- **View Tasks**:
+  1. To see your saved tasks, simply reload the page.
+
+---
+
+This version streamlines the content, making it clear and easy to follow.
