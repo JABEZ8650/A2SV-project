@@ -1,0 +1,87 @@
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 8px rgba(0, 0, 255, 0.2);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+}
+.frr{
+  display: flex;
+  gap: "2px";
+  width: fit-content;
+  align-items: center;
+}
+
+.editText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.editText > button {
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.editText > button:nth-child(2) {
+    color: #28a745;
+}
+
+.editText > button:nth-child(3) {
+    color: #dc3545;
+}
+
+.editText > button:hover {
+    background-color: #f0f0f0;
+}
+
+.items .editBtnContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.items .editBtnContainer button {
+    margin-left: 10px;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.items > button {
+    color: #ff0000;
+    transition: color 0.3s ease;
+}
+
+.items > button:hover {
+    color: #ff4d4d;
+}
+
+
+.todos::-webkit-scrollbar {
+    width: 8px;
+}
+
+.todos::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 8px;
+}
+
+.todos::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+.todos::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}

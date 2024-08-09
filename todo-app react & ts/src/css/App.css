@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px;
+    position: relative;
+    transform: translate(0, 0);
+    top: 20%;
+    left: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e0f7fa; 
+}
+
+.header {
+    background: #006064; 
+    color: #e0f2f1; 
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid #004d40;
+    border-radius: 5px;
+    position: relative;
+}
+
+.logoside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logoside > svg {
+    font-size: 2rem;
+    margin: 0 15px;
+    color: #ffab40;
+}
+
+
